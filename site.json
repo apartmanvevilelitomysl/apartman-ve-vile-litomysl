@@ -5,7 +5,7 @@
     "badge": "Přímá rezervace bez provize",
     "title": "Útulný apartmán ve vile v Litomyšli",
     "text": "Klidné ubytování v zahradě, nedaleko centra Litomyšle. Ideální pro pár, rodinu nebo menší skupinu až 4 osob.",
-    "image": "/photos/hero.webp"
+    "image": "/hero.webp"
   },
   "intro": {
     "kicker": "Litomyšl",
@@ -48,31 +48,31 @@
   ],
   "gallery": [
     {
-      "image": "/photos/06-bedroom.webp",
+      "image": "/06-bedroom.webp",
       "alt": "Ložnice s manželskou postelí"
     },
     {
-      "image": "/photos/01-kitchen.webp",
+      "image": "/01-kitchen.webp",
       "alt": "Kuchyň a jídelní kout"
     },
     {
-      "image": "/photos/07-living-room-sofa.webp",
+      "image": "/07-living-room-sofa.webp",
       "alt": "Rozkládací gauč v obývacím pokoji"
     },
     {
-      "image": "/photos/04-bathroom.webp",
+      "image": "/04-bathroom.webp",
       "alt": "Koupelna"
     },
     {
-      "image": "/photos/05-bathroom-detail.webp",
+      "image": "/05-bathroom-detail.webp",
       "alt": "Detail koupelny"
     },
     {
-      "image": "/photos/03-garden.webp",
+      "image": "/03-garden.webp",
       "alt": "Zahrada s posezením a ohništěm"
     },
     {
-      "image": "/photos/02-exterior-night.webp",
+      "image": "/02-exterior-night.webp",
       "alt": "Vila v zimě večer"
     }
   ],
