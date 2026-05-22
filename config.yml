@@ -1,0 +1,91 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "photos/uploads"
+public_folder: "/photos/uploads"
+locale: "cs"
+
+collections:
+  - name: "settings"
+    label: "Web"
+    files:
+      - label: "Obsah, ceny a fotky"
+        name: "site"
+        file: "data/site.json"
+        fields:
+          - {label: "Název webu", name: "siteName", widget: "string"}
+          - {label: "Doména", name: "domain", widget: "string"}
+          - label: "Úvodní sekce"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {label: "Štítek", name: "badge", widget: "string"}
+              - {label: "Hlavní nadpis", name: "title", widget: "string"}
+              - {label: "Úvodní text", name: "text", widget: "text"}
+              - {label: "Hlavní fotka", name: "image", widget: "image"}
+          - label: "Popis apartmánu"
+            name: "intro"
+            widget: "object"
+            fields:
+              - {label: "Malý nadpis", name: "kicker", widget: "string"}
+              - {label: "Nadpis", name: "title", widget: "string"}
+              - {label: "Text", name: "text", widget: "text"}
+          - label: "Vybavení"
+            name: "amenities"
+            widget: "list"
+            fields:
+              - {label: "Ikona / emoji", name: "icon", widget: "string"}
+              - {label: "Text", name: "title", widget: "string"}
+          - label: "Fotogalerie"
+            name: "gallery"
+            widget: "list"
+            fields:
+              - {label: "Fotka", name: "image", widget: "image"}
+              - {label: "Popis fotky", name: "alt", widget: "string"}
+          - label: "Ceny a slevy"
+            name: "pricing"
+            widget: "object"
+            fields:
+              - {label: "Základní cena EUR / noc", name: "baseEur", widget: "number", value_type: "float"}
+              - {label: "Kurz EUR/CZK", name: "eurToCzk", widget: "number", value_type: "float"}
+              - {label: "Víkendový příplatek v %", name: "weekendSurchargePercent", widget: "number", value_type: "float"}
+              - {label: "Sleva 1. noc v %", name: "discountNight1", widget: "number", value_type: "float"}
+              - {label: "Sleva 2. noc v %", name: "discountNight2", widget: "number", value_type: "float"}
+              - {label: "Sleva 3. noc v %", name: "discountNight3", widget: "number", value_type: "float"}
+              - {label: "Sleva 4. noc v %", name: "discountNight4", widget: "number", value_type: "float"}
+              - {label: "Sleva 5. a další noc v %", name: "discountNight5Plus", widget: "number", value_type: "float"}
+              - {label: "Záloha v %", name: "depositPercent", widget: "number", value_type: "float"}
+              - {label: "Místní poplatek Kč / dospělý / noc", name: "cityTaxCzkAdultNight", widget: "number", value_type: "float"}
+          - label: "Rezervační formulář"
+            name: "reservation"
+            widget: "object"
+            fields:
+              - {label: "E-mail pro poptávky", name: "formEmail", widget: "string"}
+              - {label: "E-mail v kopii", name: "ccEmail", widget: "string"}
+              - {label: "Text u formuláře", name: "text", widget: "text"}
+          - label: "Okolí"
+            name: "nearby"
+            widget: "object"
+            fields:
+              - {label: "Nadpis", name: "title", widget: "string"}
+              - {label: "Text", name: "text", widget: "text"}
+              - label: "Položky"
+                name: "items"
+                widget: "list"
+                fields:
+                  - {label: "Ikona / emoji", name: "icon", widget: "string"}
+                  - {label: "Název", name: "title", widget: "string"}
+          - label: "Kontakt"
+            name: "contact"
+            widget: "object"
+            fields:
+              - {label: "Adresa", name: "address", widget: "string"}
+              - {label: "E-mail", name: "email", widget: "string"}
+              - {label: "Telefon", name: "phone", widget: "string"}
+              - {label: "Firma", name: "company", widget: "string"}
+              - {label: "IČO", name: "ico", widget: "string"}
+              - {label: "DIČ", name: "dic", widget: "string"}
+              - {label: "Sídlo", name: "companyAddress", widget: "string"}
+              - {label: "Booking URL", name: "bookingUrl", widget: "string"}
+              - {label: "Map URL", name: "mapUrl", widget: "string"}

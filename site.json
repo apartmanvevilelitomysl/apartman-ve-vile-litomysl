@@ -1,0 +1,129 @@
+{
+  "siteName": "Apartmán ve vile Litomyšl",
+  "domain": "apartmanvevilelitomysl.cz",
+  "hero": {
+    "badge": "Přímá rezervace bez provize",
+    "title": "Útulný apartmán ve vile v Litomyšli",
+    "text": "Klidné ubytování v zahradě, nedaleko centra Litomyšle. Ideální pro pár, rodinu nebo menší skupinu až 4 osob.",
+    "image": "/photos/hero.webp"
+  },
+  "intro": {
+    "kicker": "Litomyšl",
+    "title": "Apartmán v klidné čtvrti nedaleko centra",
+    "text": "Apartmán ve vile Litomyšl nabízí ložnici s manželskou postelí, obývací pokoj s rozkládacím gaučem, kuchyňským zázemím, Wi‑Fi, parkováním a příjemným posezením v zahradě."
+  },
+  "amenities": [
+    {
+      "icon": "👥",
+      "title": "Až 4 osoby"
+    },
+    {
+      "icon": "🛏️",
+      "title": "Ložnice + rozkládací gauč"
+    },
+    {
+      "icon": "📶",
+      "title": "Wi‑Fi"
+    },
+    {
+      "icon": "🚗",
+      "title": "Parkování"
+    },
+    {
+      "icon": "🔥",
+      "title": "Ohniště s grilem"
+    },
+    {
+      "icon": "🚭",
+      "title": "Nekuřácký apartmán"
+    },
+    {
+      "icon": "🐾",
+      "title": "Bez domácích mazlíčků"
+    },
+    {
+      "icon": "👶",
+      "title": "Děti vítány"
+    }
+  ],
+  "gallery": [
+    {
+      "image": "/photos/06-bedroom.webp",
+      "alt": "Ložnice s manželskou postelí"
+    },
+    {
+      "image": "/photos/01-kitchen.webp",
+      "alt": "Kuchyň a jídelní kout"
+    },
+    {
+      "image": "/photos/07-living-room-sofa.webp",
+      "alt": "Rozkládací gauč v obývacím pokoji"
+    },
+    {
+      "image": "/photos/04-bathroom.webp",
+      "alt": "Koupelna"
+    },
+    {
+      "image": "/photos/05-bathroom-detail.webp",
+      "alt": "Detail koupelny"
+    },
+    {
+      "image": "/photos/03-garden.webp",
+      "alt": "Zahrada s posezením a ohništěm"
+    },
+    {
+      "image": "/photos/02-exterior-night.webp",
+      "alt": "Vila v zimě večer"
+    }
+  ],
+  "pricing": {
+    "baseEur": 116,
+    "eurToCzk": 25,
+    "weekendSurchargePercent": 15,
+    "discountNight1": 0,
+    "discountNight2": 10,
+    "discountNight3": 20,
+    "discountNight4": 30,
+    "discountNight5Plus": 40,
+    "depositPercent": 30,
+    "cityTaxCzkAdultNight": 50
+  },
+  "reservation": {
+    "formEmail": "info@apartmanvevilelitomysl.cz",
+    "ccEmail": "elias.filip@seznam.cz",
+    "text": "Odesláním vzniká nezávazná poptávka. Rezervace je platná až po našem ručním potvrzení e-mailem."
+  },
+  "nearby": {
+    "title": "Okolí a Litomyšl",
+    "text": "Litomyšl je ideální pro klidný víkend, procházky historickým centrem i výlety po okolí.",
+    "items": [
+      {
+        "icon": "🏛️",
+        "title": "Historické centrum Litomyšle"
+      },
+      {
+        "icon": "🌳",
+        "title": "Zámecký areál a zahrady"
+      },
+      {
+        "icon": "☕",
+        "title": "Kavárny, restaurace a kultura"
+      },
+      {
+        "icon": "🚶",
+        "title": "Výlety po okolní krajině"
+      }
+    ]
+  },
+  "contact": {
+    "address": "9. května 785, Litomyšl",
+    "email": "info@apartmanvevilelitomysl.cz",
+    "phone": "Telefon doplníme",
+    "company": "Chalupy Krkonoše s.r.o.",
+    "ico": "19665482",
+    "dic": "CZ19665482",
+    "companyAddress": "Bělehradská 858/23, Praha 12000",
+    "bookingUrl": "https://www.booking.com/Share-r8rauC",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=9.+kv%C4%9Btna+785+Litomy%C5%A1l"
+  }
+}
