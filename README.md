@@ -1,11 +1,23 @@
-# Apartmán ve vile Litomyšl – flat admin verze
+# Apartmán ve vile Litomyšl – Netlify Forms verze
 
-Tato verze nemá žádné povinné podsložky. Všechny soubory lze nahrát do hlavního adresáře repozitáře přes GitHub web.
+Tato verze posílá rezervační poptávky přes Netlify Forms.
+
+Soubory nahraj do hlavního adresáře GitHub repozitáře:
+- index.html
+- admin.html
+- site.json
+- netlify.toml
+- thanks.html
+- README.md
+- všechny .webp fotky
+
+Po deployi:
+1. V Netlify otevři Forms.
+2. Měl by se objevit formulář `reservation`.
+3. Nastav e-mailové notifikace:
+   - info@apartmanvevilelitomysl.cz
+   - elias.filip@seznam.cz
 
 Admin:
-- veřejná URL: /admin
-- technický soubor: admin.html
-- obsah: site.json
-- budoucí fotky nahrané z adminu se uloží do složky uploads automaticky přes CMS
-
-Po nahrání do GitHubu je nutné v Netlify zapnout Identity a Git Gateway.
+- /admin
+- Netlify Identity a Git Gateway řeš zvlášť.
