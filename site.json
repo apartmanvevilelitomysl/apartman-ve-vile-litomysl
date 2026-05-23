@@ -12,7 +12,7 @@
   },
   "domain": "apartmanvevilelitomysl.cz",
   "pricing": {
-    "depositPercent": 30,
+    "depositPercent": 33,
     "weekendSurchargePercent": 15,
     "baseEur": 116,
     "cityTaxCzkAdultNight": 50,
